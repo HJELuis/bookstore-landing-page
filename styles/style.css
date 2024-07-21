@@ -5,16 +5,20 @@ body {
     background-color: #548C8B ;    
 }
 
-h1 {
-    color: #061042;
-    font-size: 2em;
-}
+
 
 
 .intro {
     text-align: center;
     color: #FFFFFF;
     font-size: 1.5em;
+    padding: 20px;
+}
+
+h1 {
+    color: #061042;
+    font-size: 2em;
+    margin: 0;
 }
 
 input {
