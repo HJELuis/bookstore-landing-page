@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0 auto;
+    font-family: "Rubik", sans-serif;    
+    background-color: #548C8B ;    
+}
+
+h1 {
+    color: #061042;
+    font-size: 2em;
+}
+
+
+.intro {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 8px;    
+    outline: none;
+}
+
+button {
+    padding: 15px 32px;
+    border-radius: 12px;
+    border: none;
+    background-color: #061042;
+    color: #FFFFFF;
+    text-align: center;    
+    cursor: pointer;
+    transition: all .25 linear;
+}
+
+button:hover {
+    color: #061042;
+    background-color: #FFFFFF;
+    transform: scale(1.02);
+}
