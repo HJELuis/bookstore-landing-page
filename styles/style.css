@@ -8,17 +8,45 @@ body {
 
 
 
-.intro {
+main {
     text-align: center;
     color: #FFFFFF;
     font-size: 1.5em;
     padding: 20px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 {
     color: #061042;
     font-size: 2em;
     margin: 0;
+    align-self: center;
+    margin-right: auto;
+}
+
+img {
+    width: 2em;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #061042;
+    
+}
+
+a:hover {
+    color: #FFFFFF;
 }
 
 input {

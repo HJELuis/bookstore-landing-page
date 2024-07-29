@@ -2,8 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+     <!--Meta tag description--> 
     <meta name="description" content="Compra una gran variedad de libros en formato físico o digital.Puedes encontrar desde libros muy antiguos hasta las obras más recientes."> 
+    <!-- Open Graph Meta tags-->
+    <meta property="og:title" content="Book Store">
+    <meta property="og:escription" content="Compra una gran variedad de libros en formato físico o digital.Puedes encontrar desde libros muy antiguos hasta las obras más recientes.">
+    <meta property="og:image" content="./img/book.jpg">
+    <!--Meta Tag Robots-->
+    <meta name="robots" content="index, follow">
+    <!--Meta Tag Keywords-->
+    <meta name="keywords" content="libros,antiguos,nuevos,digital,fisico">
     <title>Book Store</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,15 +20,26 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>    
-    <section class="intro">            
-        <h1>Book store</h1>
-        <p>Una gran variedad de libros.</p>
-        <p>Adquiere tus libros más recientes y también los más antiguos en formato digital o físico.</p>  
+    <main>        
+        <header>
+            <img src="./img/book.svg" alt="logo de libro">
+            <h1>Book store</h1>            
+            <nav>
+                <ul>
+                    <li><a href="#recientes">Libros recientes</a></li>
+                    <li><a href="#antiguos">Libros antiguos</a></li>
+                    <li><a href="https://blog.com" rel="noopener noreferer">Blog sobre libros</a></li>
+                    <li><a href="https://blog.com" rel="nofollow">Distribuidor autorizado</a></li>
+                </ul>
+            </nav>
+        </header>                
         <section class="action">
+            <h2>Tienda de libros</h2>            
+            <p>Adquiere tus libros más recientes y también los más antiguos en formato digital o físico.</p>
             <label for="email">Únete a nuestra comunidad</label>
             <input id="email" type="text" placeholder="Correo" ></input>
             <button>Únirse</button>
-        </section>        
-    </section>    
+        </section>                
+    </main>
 </body>
 </html>
